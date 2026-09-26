@@ -1,8 +1,8 @@
 # Interactive Sudoku Solver & Algorithm Visualizer
 
-A clean, interview-ready Python application that visualizes **Recursive Backtracking** and the **Minimum Remaining Values (MRV)** heuristic in real-time using Pygame.
+A clean, interactive Python application that visualizes **Recursive Backtracking** and the **Minimum Remaining Values (MRV)** heuristic in real-time using Pygame.
 
-Designed specifically for technical interviews to demonstrate core Data Structures & Algorithms, recursion mechanics, state restoration, and heuristic optimization without over-engineering.
+Designed to demonstrate core Data Structures & Algorithms, recursion mechanics, state restoration, and heuristic optimization in an engaging, visual manner.
 
 ---
 
@@ -74,7 +74,7 @@ The project enforces a strict **Separation of Concerns**: rendering and user eve
 +-------------------------------------------------------+
 ```
 
-### Why this architecture matters in an interview:
+### Why this architecture matters:
 
 - **Testability**: Because `solver.py` has no UI imports, unit tests can execute and verify puzzle logic in milliseconds.
 - **Simplicity**: No threads, async event loops, or complex message buses. The visualizer synchronizes with the recursive solver via a simple callback parameter.
@@ -191,9 +191,9 @@ All built-in puzzles have been empirically verified:
 
 ---
 
-## 9. Live Code Modifications
+## 9. Live Configuration Demonstrations
 
-To demonstrate confidence and architecture understanding during a live interview:
+To observe how algorithmic heuristics and speed configurations alter execution in real time:
 
 ### Demo 1: Algorithmic Strategy Change
 

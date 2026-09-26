@@ -5,7 +5,7 @@ This class encapsulates the 9x9 board data, tracks fixed original clues,
 maintains visual highlighting states for Pygame rendering, and provides
 reset/load methods.
 
-IMPORTANT INTERVIEW NOTE:
+ARCHITECTURAL NOTE:
 To preserve separation of concerns, this class is used solely by the UI layer.
 The solver functions in solver.py operate on pure List[List[int]] arrays
 and do NOT receive or manipulate this class directly.

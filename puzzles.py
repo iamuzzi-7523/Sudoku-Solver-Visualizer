@@ -6,7 +6,7 @@ All puzzles are represented as standard 9x9 Python 2D lists (List[List[int]]):
 1-9 = Fixed initial clue numbers
 
 Each puzzle is empirically benchmarked to guarantee fast, reliable, predictable
-execution during an interview without hanging, freezing, or taking minutes:
+execution without hanging, freezing, or stalling:
 
 Benchmark Summary:
 - EASY:           96 attempts, 0 backtracks (~3s visual)
@@ -32,7 +32,7 @@ PUZZLE_EASY: List[List[int]] = [
 ]
 
 # Backtracking Demonstration Puzzle:
-# Specifically selected for live screen-share interviews:
+# Specifically selected for clear visual demonstration:
 # Standard Backtracking: 307 attempts, 9 backtracks (clearly observable trial, error, backtrack)
 # MRV Heuristic:         226 attempts, 0 backtracks (demonstrates heuristic pruning)
 PUZZLE_BACKTRACK_DEMO: List[List[int]] = [

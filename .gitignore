@@ -18,6 +18,7 @@ ENV/
 # Internal Agent / Tool files
 .agent/
 .gemini/
+Text/
 
 # OS generated files
 .DS_Store

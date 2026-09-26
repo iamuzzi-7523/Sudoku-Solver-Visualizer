@@ -1,24 +1,24 @@
 """
 Configuration settings for the Interactive Sudoku Solver & Algorithm Visualizer.
 
-This file contains primary interview levers at the top so they can be
-modified live in 5 seconds during a technical interview.
+This file contains primary algorithm and visualization settings at the top
+to easily compare search strategies and execution speeds.
 """
 
 # =====================================================================
-# LIVE INTERVIEW DEMONSTRATION SETTINGS
+# DEMONSTRATION & RUNTIME SETTINGS
 # =====================================================================
 
-# DEMO A: Solving Algorithm Selection
+# Solving Algorithm Selection
 # Change "backtracking" to "mrv" to show how the cell selection heuristic
 # prunes the search space and alters the number of attempts and backtracks.
 # Options: "backtracking" | "mrv"
 SOLVER_ALGORITHM = "backtracking"
 
-# DEMO B: Visualization Speed / Animation Delay (in seconds)
+# Visualization Speed / Animation Delay (in seconds)
 # Change 0.05 to 0.00 to demonstrate high-speed headless-like execution
 # vs step-by-step visual pedagogical execution.
-# 0.05 = Step-by-step interview demonstration speed
+# 0.05 = Step-by-step visual demonstration speed
 # 0.00 = Maximum speed (near-instant execution)
 ANIMATION_DELAY = 0.05
 

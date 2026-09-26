@@ -5,8 +5,8 @@ This module contains pure Data Structures & Algorithms logic operating strictly
 on standard 9x9 Python 2D lists (List[List[int]]).
 
 It has NO dependencies on Pygame, UI classes, or external libraries.
-All functions are designed to be read, tested, and explained line-by-line
-under interview conditions.
+All functions are designed to be read, tested, and understood clearly
+and concisely.
 
 Key Functions:
 1. is_valid(board, row, col, num)   - Constraint checking (Row, Column, 3x3 Box)

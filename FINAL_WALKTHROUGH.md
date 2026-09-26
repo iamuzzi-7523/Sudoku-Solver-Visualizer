@@ -48,7 +48,7 @@ Instead of computing the solution silently and displaying only the result, the a
 - Contains the `--cli` argument parser for headless benchmarking.
 
 ### 5. `config.py` (Central Configuration)
-- Places primary interview live levers at the very top (`SOLVER_ALGORITHM`, `ANIMATION_DELAY`, `DEFAULT_PUZZLE`).
+- Places primary algorithm and visualization settings at the very top (`SOLVER_ALGORITHM`, `ANIMATION_DELAY`, `DEFAULT_PUZZLE`).
 - Defines all window dimensions, coordinates, font families, and high-contrast color codes.
 
 ### 6. `puzzles.py` (Curated Datasets)
@@ -214,7 +214,7 @@ The UI and solver are completely decoupled:
 
 ---
 
-## N. How to Modify the Project Live in an Interview
+## N. How to Modify the Project Live / Configuration Demonstration
 
 ### Modification 1: Changing Solving Algorithm
 1. Open `config.py` in your code editor.
@@ -227,7 +227,7 @@ The UI and solver are completely decoupled:
    SOLVER_ALGORITHM = "mrv"
    ```
 4. Run `python main.py` in the terminal and click `Solve`.
-5. Point out to the interviewer that on the demo puzzle, backtracks drop from **9** down to **0**, and attempts drop from **307** down to **226**.
+5. Observe that on the demo puzzle, backtracks drop from **9** down to **0**, and attempts drop from **307** down to **226**.
 
 ### Modification 2: Changing Visualization Speed
 1. Open `config.py`.
